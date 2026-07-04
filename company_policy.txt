@@ -1,0 +1,559 @@
+**EMPLOYEE ATTENDANCE POLICY MANUAL**  
+**Effective Date:** January 1, 2026  
+**Version:** 5.2  
+**Issuing Authority:** Human Resources Department  
+**Approved By:** Executive Management Board  
+
+---
+
+### TABLE OF CONTENTS
+
+1. PURPOSE AND SCOPE  
+2. DEFINITIONS AND INTERPRETATIONS  
+3. GENERAL PRINCIPLES OF ATTENDANCE  
+4. STANDARD WORKING HOURS AND WORKWEEK  
+5. TIME RECORDING AND CLOCKING PROCEDURES  
+6. TARDINESS, EARLY DEPARTURE, AND UNAUTHORIZED ABSENCE  
+7. UNAUTHORIZED ABSENCE AND ABANDONMENT OF EMPLOYMENT  
+8. LEAVE OF ABSENCE POLICIES  
+   8.1 Annual Leave (Vacation)  
+   8.2 Sick Leave  
+   8.3 Personal/Casual Leave  
+   8.4 Bereavement Leave  
+   8.5 Marriage Leave  
+   8.6 Maternity, Paternity, and Adoption Leave  
+   8.7 Public/National Holidays  
+   8.8 Military Leave  
+   8.9 Jury Duty and Witness Leave  
+   8.10 Unpaid Leave  
+9. OVERTIME AND COMPENSATORY TIME  
+10. BUSINESS TRAVEL AND FIELD WORK ATTENDANCE  
+11. REMOTE AND FLEXIBLE WORK ARRANGEMENTS  
+12. ATTENDANCE RECORD KEEPING AND VERIFICATION  
+13. ATTENDANCE INCENTIVES AND RECOGNITION  
+14. PROGRESSIVE DISCIPLINE FOR ATTENDANCE VIOLATIONS  
+15. EXCEPTIONS, ACCOMMODATIONS, AND REASONABLE ADJUSTMENTS  
+16. REPORTING AND NOTIFICATION REQUIREMENTS  
+17. ROLE OF MANAGERS AND SUPERVISORS  
+18. GRIEVANCE AND APPEAL MECHANISM  
+19. AMENDMENTS, REVIEW, AND GOVERNANCE  
+20. ACKNOWLEDGMENT AND DISTRIBUTION  
+
+---
+
+### 1. PURPOSE AND SCOPE
+
+**1.1 Purpose**  
+The purpose of this Attendance Policy Manual (“Policy”) is to establish a clear, fair, and consistent framework for managing employee attendance across all departments, subsidiaries, and operational units of the Company. Regular and punctual attendance is essential to maintaining productivity, ensuring seamless customer service, promoting team collaboration, and upholding the Company’s reputation for reliability and excellence. This Policy defines the rights, responsibilities, and obligations of both employees and management with respect to work schedules, absence reporting, leave entitlements, and corrective actions for non‑compliance.  
+
+**1.2 Scope**  
+This Policy applies to all full‑time, part‑time, temporary, fixed‑term, and probationary employees, regardless of their employment status or location, unless specifically exempted by a collective bargaining agreement or separate executive contract. It also extends to remote workers, field personnel, and employees on international assignments, to the extent permitted by local laws and applicable labor regulations. Independent contractors, consultants, and agency workers are encouraged to follow comparable standards, but their attendance administration remains governed by their respective service agreements.  
+
+**1.3 Legal Compliance**  
+This Policy is designed to comply with all relevant federal, state, and municipal employment laws, including but not limited to wage and hour regulations, family and medical leave acts, anti‑discrimination statutes, and occupational health and safety requirements. In the event of a conflict between this Policy and applicable law, the law shall prevail, and the Company will modify the conflicting provision accordingly.  
+
+**1.4 Policy Hierarchy**  
+This document constitutes the primary attendance directive. Department‑specific operating procedures may supplement this Policy, provided they are at least as stringent and are approved in writing by the Human Resources Department. In all cases, the more restrictive provision shall govern.  
+
+---
+
+### 2. DEFINITIONS AND INTERPRETATIONS
+
+For purposes of this Policy, the following terms have the meanings set forth below:  
+
+**2.1 “Attendance”** means the physical or virtual presence of an employee at their designated work location (including remote worksites) during scheduled work hours, ready and able to perform assigned duties.  
+
+**2.2 “Clock‑In / Clock‑Out”** refers to the electronic or manual recording of the time an employee begins and ends their work shift, as well as any meal periods or breaks, using the Company’s designated time‑tracking system.  
+
+**2.3 “Scheduled Work Hours”** means the official shift or core business hours assigned to an employee, including any rotating or flexible schedules published at least seven (7) calendar days in advance, except in emergency situations.  
+
+**2.4 “Tardiness”** occurs when an employee reports to work after the scheduled start time, or returns from a meal/rest break later than the allotted duration, without prior authorization or a valid excuse.  
+
+**2.5 “Early Departure”** means leaving the workplace (or logging off from remote work) before the scheduled end of the shift without obtaining managerial approval.  
+
+**2.6 “Absence”** is any failure to report to work during all or part of a scheduled shift. Absences may be authorized (approved in advance) or unauthorized (without approval or proper notification).  
+
+**2.7 “Unexcused Absence”** is an absence that is not covered by any paid or unpaid leave category and for which the employee fails to provide timely notification or satisfactory justification.  
+
+**2.8 “Occurrence”** is a single instance of tardiness, early departure, or absence, counted separately for disciplinary tracking purposes under the progressive discipline system.  
+
+**2.9 “Rolling Calendar Year”** means the preceding 365‑day period counted backward from the date of any attendance review.  
+
+**2.10 “Manager”** refers to any employee holding a supervisory or managerial title who has direct responsibility for overseeing the attendance and performance of subordinate staff.  
+
+**2.11 “Human Resources (HR)”** means the Company’s central human resources function responsible for policy interpretation, leave administration, and disciplinary oversight.  
+
+**2.12 “Payroll Period”** means the bi‑weekly or semi‑monthly cycle in which employee compensation is processed, as defined in the Company’s payroll policy.  
+
+---
+
+### 3. GENERAL PRINCIPLES OF ATTENDANCE
+
+**3.1 Shared Responsibility**  
+Attendance is a shared responsibility. The Company commits to providing clear schedules, reliable time‑keeping systems, and adequate support for leave management. Employees, in turn, commit to being punctual, reliable, and communicative about any changes to their availability.  
+
+**3.2 Business Necessity**  
+The Company operates on the fundamental principle that each employee’s presence during scheduled hours is integral to operational continuity. Unplanned absences and chronic tardiness impose additional burdens on coworkers, reduce service quality, increase overtime costs, and may jeopardize safety. Therefore, attendance performance is a critical factor in performance appraisals, promotions, and continued employment.  
+
+**3.3 Good Faith and Honesty**  
+Employees are expected to act in good faith when requesting leave, reporting absences, and recording time. Falsification of time records, misuse of leave entitlements, or deliberate misrepresentation of attendance‑related information constitutes gross misconduct and may result in immediate termination.  
+
+**3.4 Communication and Notification**  
+Open, timely communication is the cornerstone of attendance management. Employees must notify their immediate manager or the designated hotline as soon as they become aware that they will be late or absent, and in any case, no later than one (1) hour before the scheduled start time, unless extraordinary circumstances prevent such notice.  
+
+**3.5 Confidentiality**  
+All attendance and leave information is confidential and will be shared only on a need‑to‑know basis for legitimate business purposes, such as scheduling, payroll, or reasonable accommodation requests.  
+
+---
+
+### 4. STANDARD WORKING HOURS AND WORKWEEK
+
+**4.1 Full‑Time Standard Shift**  
+For full‑time employees, the standard workweek consists of forty (40) hours, typically scheduled over five (5) consecutive days, Monday through Friday, from 9:00 a.m. to 6:00 p.m., inclusive of a one‑hour unpaid meal break. The exact start and end times may vary by department or location, subject to operational needs.  
+
+**4.2 Part‑Time and Flexible Schedules**  
+Part‑time employees work fewer than thirty (30) hours per week, with schedules determined by department heads. Flexible work schedules (e.g., compressed workweeks, flextime) may be authorized for eligible roles, provided the employee maintains core overlap hours (e.g., 10:00 a.m. – 3:00 p.m.) and notifies their manager of any schedule changes at least one week in advance.  
+
+**4.3 Shift Workers and Rotating Schedules**  
+Employees in 24/7 operations (e.g., manufacturing, customer support, security) may be assigned rotating shifts, including night shifts and weekend rotations. Shift schedules will be posted at least fourteen (14) days in advance, and shift swaps require written approval from both affected employees’ managers.  
+
+**4.4 Meal and Rest Breaks**  
+All employees are entitled to a minimum thirty‑minute (30‑minute) unpaid meal break for shifts exceeding six (6) hours, and two paid fifteen‑minute (15‑minute) rest breaks for shifts exceeding eight (8) hours. Break times are scheduled by the manager to ensure adequate coverage. Employees must clock out for meal breaks if required by the time‑tracking system; rest breaks are paid and remain on‑clock.  
+
+**4.5 Maximum Working Hours**  
+In compliance with labor laws, no employee shall be required to work more than twelve (12) consecutive hours in a 24‑hour period, nor more than sixty (60) hours in a single workweek, except in emergency circumstances declared in writing by senior management, and with the employee’s voluntary consent where required.  
+
+**4.6 Overtime Eligibility**  
+Non‑exempt employees (as defined under the Fair Labor Standards Act or equivalent local laws) are eligible for overtime pay at the statutory rate (1.5 times regular rate) for all hours worked beyond forty (40) in a workweek, unless a valid compensatory time arrangement exists. Exempt employees are not entitled to overtime pay but may receive discretionary bonuses or comp days for extraordinary efforts.  
+
+---
+
+### 5. TIME RECORDING AND CLOCKING PROCEDURES
+
+**5.1 Designated Time‑Tracking System**  
+The Company utilizes an electronic time‑and‑attendance system (“TimeSys”) accessible via web portal, mobile application, or on‑site biometric terminals. All employees must record their clock‑in, clock‑out, break start, break end, and any shift exceptions using their unique employee identification credentials.  
+
+**5.2 Clock‑In and Clock‑Out Protocols**  
+- Employees must clock in at the beginning of their scheduled shift, immediately after any meal break, and after any rest break, if the system requires.  
+- Employees must clock out at the end of their shift, before beginning an unpaid meal break, and at the conclusion of the workday.  
+- Clock‑in times must be accurate to the minute. Falsifying time entries, “buddy punching” (clocking in for another employee), or manipulating the system is strictly prohibited and will result in disciplinary action up to and including termination.  
+
+**5.3 Grace Period**  
+A five‑minute (5‑minute) grace period is allowed for clock‑in only, to account for minor delays due to weather, transportation, or security lines. Clock‑ins exceeding the grace period will be recorded as tardy. There is no grace period for clock‑out; leaving before the scheduled end time without approval is early departure.  
+
+**5.4 Manual Time Correction**  
+If the electronic system is unavailable, employees must use the designated manual timesheet and obtain their manager’s signature. Manual entries must be submitted within twenty‑four (24) hours of the missed clock‑in/out. Failure to correct time entries within the payroll cutoff may result in delayed compensation.  
+
+**5.5 Biometric Data and Privacy**  
+Biometric time‑tracking (fingerprint or facial recognition) is used solely for attendance verification. Biometric data is encrypted and stored in accordance with applicable privacy laws; employees may request deletion of their biometric data upon termination of employment.  
+
+**5.6 Audit and Monitoring**  
+The HR Department and internal audit team conduct periodic random audits of time records to detect anomalies, patterns of late clock‑ins, or potential overtime abuse. Employees subject to audit will be notified and given an opportunity to explain any discrepancies.  
+
+---
+
+### 6. TARDINESS, EARLY DEPARTURE, AND UNAUTHORIZED ABSENCE
+
+**6.1 Definition of Tardiness**  
+An employee is tardy if they clock in after their scheduled start time by more than five (5) minutes, or return from a meal/rest break more than five (5) minutes late. Tardiness is recorded in the system as a separate attendance occurrence.  
+
+**6.2 Reporting Tardiness**  
+Employees who anticipate being late must notify their manager or the attendance hotline as soon as possible, ideally at least thirty (30) minutes before the shift begins. Failure to provide notice of tardiness may elevate the infraction to an unexcused absence for the missed time.  
+
+**6.3 Accumulation of Tardiness**  
+Tardiness occurrences are counted on a rolling 365‑day basis. The Company tracks both the number of tardy events and the total cumulative minutes of lateness. Repeated tardiness, even if each instance is brief, demonstrates a pattern of unreliability and will be addressed through progressive discipline.  
+
+**6.4 Early Departure**  
+Leaving work before the scheduled shift end without prior managerial approval is considered early departure. If an employee must leave early due to an emergency, they must request approval in advance or notify management immediately. Unapproved early departure exceeding one (1) hour may be treated as a half‑day absence.  
+
+**6.5 Unexcused Absence**  
+Any absence from a full or partial shift that is not covered by approved leave, and for which the employee did not provide acceptable notification or justification, is an unexcused absence. Unexcused absences are serious violations and directly impact performance evaluations and continued employment.  
+
+**6.6 Excused vs. Unexcused**  
+An absence may be excused if it falls under a paid leave category (e.g., sick leave with a valid medical certificate, approved vacation, bereavement) or is otherwise authorized by management. All other absences are unexcused, regardless of whether they are paid or unpaid, unless the Company, at its sole discretion, determines extraordinary circumstances exist.  
+
+**6.7 “No‑Call, No‑Show”**  
+A “no‑call, no‑show” occurs when an employee fails to report to work and does not notify their manager within two (2) hours after the shift start, or fails to respond to reasonable attempts by the Company to contact them. A single no‑call, no‑show may be treated as an unexcused absence, and three (3) consecutive no‑call, no‑show days shall constitute voluntary abandonment of employment, resulting in immediate termination.  
+
+---
+
+### 7. UNAUTHORIZED ABSENCE AND ABANDONMENT OF EMPLOYMENT
+
+**7.1 Absence Without Leave (AWOL)**  
+Any absence that is not authorized by management and not covered by a valid leave category is Absence Without Leave (AWOL). AWOL time is unpaid and counts as an unexcused absence. Continuous AWOL for more than five (5) consecutive working days without contact shall be treated as job abandonment.  
+
+**7.2 Job Abandonment Policy**  
+An employee who fails to report for work for three (3) consecutive scheduled shifts and does not respond to Company communications (including phone, email, and certified mail) within two (2) business days will be presumed to have abandoned their position. A formal termination letter will be sent to the employee’s last known address, and the effective date of termination will be the last day actually worked.  
+
+**7.3 Return‑to‑Work Protocol**  
+If an employee on unauthorized absence returns without prior approval, they must report immediately to their manager and the HR Department. The manager may require the employee to present a valid reason and, if acceptable, convert the absence to approved leave retroactively, subject to leave balance availability. Otherwise, the absence remains unexcused and may trigger disciplinary action.  
+
+**7.4 Impact on Benefits**  
+Unexcused absences and AWOL periods may affect eligibility for bonuses, profit‑sharing, and other discretionary benefits. Additionally, excessive unexcused absences may cause loss of seniority or re‑hire status.  
+
+---
+
+### 8. LEAVE OF ABSENCE POLICIES
+
+The Company offers a comprehensive leave program to support employees’ work‑life balance, health, and family needs. All leave requests must be submitted via the HR portal, and approvals are subject to operational requirements and leave balance availability.
+
+#### 8.1 Annual Leave (Vacation)
+
+**8.1.1 Accrual**  
+Full‑time employees accrue annual leave at the rate of 1.667 days per completed month of service, totaling 20 working days per calendar year. Part‑time employees accrue on a pro‑rated basis. Accrual begins on the first day of employment; however, new employees may use accrued leave only after the successful completion of the probationary period (90 days).  
+
+**8.1.2 Carry‑Over**  
+Unused annual leave may be carried forward to the next calendar year up to a maximum of ten (10) days. Any balance exceeding ten (10) days at year‑end will be forfeited unless management approves an exception due to business exigency.  
+
+**8.1.3 Request Procedure**  
+Annual leave requests must be submitted at least fourteen (14) calendar days in advance, except in unforeseen circumstances. Managers shall respond within five (5) business days. Approval may be denied if staffing levels are insufficient, but the Company will work to accommodate reasonable requests.  
+
+**8.1.4 Payment Upon Termination**  
+Upon termination, employees will be paid for any accrued but unused annual leave, up to the carry‑over maximum, in accordance with local law.  
+
+#### 8.2 Sick Leave
+
+**8.2.1 Entitlement**  
+All regular employees are eligible for paid sick leave of up to ten (10) days per calendar year, accrued at 0.83 days per month. Sick leave is intended for the employee’s own illness, injury, or medical appointments, as well as care for a family member with a serious health condition, where applicable.  
+
+**8.2.2 Notification and Certification**  
+For absences exceeding two (2) consecutive days, the employee must provide a medical certificate from a licensed healthcare practitioner, stating the nature of the illness and the expected duration. The Company reserves the right to require a second medical opinion at its expense.  
+
+**8.2.3 Unused Sick Leave**  
+Unused sick leave does not carry over to the next year, nor is it paid out upon termination, except where required by state law.  
+
+**8.2.4 Return‑to‑Work Clearance**  
+For prolonged illness (more than ten (10) consecutive days), a “fit‑to‑return” certificate is required before the employee may resume duties.  
+
+#### 8.3 Personal/Casual Leave
+
+**8.3.1 Paid Personal Days**  
+Each employee is granted three (3) paid personal days per calendar year, which may be used for urgent personal matters, family commitments, or other non‑medical reasons that cannot be scheduled during off‑hours. Personal days do not accrue and are forfeited if unused.  
+
+**8.3.2 Request and Approval**  
+Personal leave requests must be submitted at least two (2) business days in advance, or as soon as practical in emergencies. Approval is at the manager’s discretion based on operational coverage.  
+
+#### 8.4 Bereavement Leave
+
+**8.4.1 Entitlement**  
+In the event of the death of an immediate family member (spouse, child, parent, sibling, grandparent, grandchild, or domestic partner), the employee is entitled to five (5) consecutive working days of paid bereavement leave. For other relatives (e.g., aunt, uncle, cousin), two (2) days are granted.  
+
+**8.4.2 Documentation**  
+The Company may request a copy of the death certificate or published obituary; this documentation will be kept confidential.  
+
+**8.4.3 Travel Allowance**  
+If the funeral requires travel to another city, the employee may request up to two (2) additional unpaid days, subject to manager approval.  
+
+#### 8.5 Marriage Leave
+
+**8.5.1 Entitlement**  
+Employees who are getting married are granted three (3) consecutive working days of paid marriage leave, which must be taken within fifteen (15) days of the wedding date.  
+
+**8.5.2 Request**  
+A copy of the marriage certificate or a formal invitation may be requested for verification.  
+
+#### 8.6 Maternity, Paternity, and Adoption Leave
+
+**8.6.1 Maternity Leave**  
+Pregnant employees are entitled to twelve (12) weeks of paid maternity leave, provided they have completed at least six (6) months of continuous service. Additional unpaid leave may be granted under applicable family leave laws, up to a total of twenty‑six (26) weeks. Maternity leave may commence up to two (2) weeks before the expected delivery date, or earlier if medically required.  
+
+**8.6.2 Paternity Leave**  
+Male employees are entitled to ten (10) working days of paid paternity leave, to be taken within thirty (30) days of the child’s birth or adoption placement.  
+
+**8.6.3 Adoption Leave**  
+Employees adopting a child under the age of ten (10) are entitled to ten (10) working days of paid adoption leave, in addition to any other family leave entitlements.  
+
+**8.6.4 Parental Leave**  
+In addition to the above, employees may take unpaid parental leave of up to six (6) months, subject to business needs and in compliance with local family leave laws.  
+
+**8.6.5 Notification and Documentation**  
+All requests for maternity/paternity/adoption leave must be submitted at least thirty (30) days in advance, along with a medical certificate (for maternity) or adoption court order. The employee must coordinate with HR to arrange continuation of health benefits and return‑to‑work schedule.  
+
+#### 8.7 Public/National Holidays
+
+The Company observes the following paid public holidays (dates may vary by location): New Year’s Day, Good Friday, Easter Monday, Labor Day, Independence Day, Thanksgiving, Christmas Day, and Boxing Day, plus any additional days declared by local authorities. If a holiday falls on a weekend, it may be observed on the preceding Friday or following Monday, as determined by management. Employees required to work on a public holiday will receive compensatory time off at double time, in accordance with local law.  
+
+#### 8.8 Military Leave
+
+Employees who are members of the reserve forces or national guard are entitled to paid military leave of up to fifteen (15) working days per calendar year for annual training. For extended active duty, unpaid leave shall be granted in accordance with the Uniformed Services Employment and Reemployment Rights Act (USERRA) or equivalent law, and the Company will reinstate the employee upon their return, subject to eligibility requirements.  
+
+#### 8.9 Jury Duty and Witness Leave
+
+**8.9.1 Jury Duty**  
+Employees summoned for jury duty are granted paid leave for the duration of their service. The employee must provide the jury summons to HR as soon as received. If the employee is released from jury duty before the end of the workday, they are expected to return to work for the remaining part of the shift.  
+
+**8.9.2 Witness Leave**  
+Employees required to appear in court as a witness (other than as a party in a personal legal matter) are eligible for paid witness leave. The subpoena must be submitted to HR.  
+
+#### 8.10 Unpaid Leave
+
+**8.10.1 Request and Approval**  
+Unpaid leave may be granted for personal reasons not covered by other leave categories, such as extended travel, further education, or family responsibilities. Requests must be submitted at least thirty (30) days in advance and are approved solely at the Company’s discretion, based on operational impact.  
+
+**8.10.2 Duration and Conditions**  
+Unpaid leave shall not exceed ninety (90) consecutive days without executive approval. During unpaid leave, health benefits may continue only if the employee pays the full premium amount. Seniority and accrual of paid leave are suspended during unpaid leave.  
+
+---
+
+### 9. OVERTIME AND COMPENSATORY TIME
+
+**9.1 Authorized Overtime**  
+All overtime work must be pre‑approved by the employee’s manager. Unauthorized overtime will not be compensated and may result in disciplinary action. Employees are required to accurately record all overtime hours in the time‑tracking system.  
+
+**9.2 Overtime Pay**  
+Non‑exempt employees shall receive overtime pay at one and one‑half (1.5×) their regular hourly rate for all hours worked in excess of forty (40) in a workweek. Overtime pay is calculated based on actual hours worked, excluding meal breaks and other unpaid time.  
+
+**9.3 Compensatory Time (Comp Time)**  
+With the employee’s written agreement, overtime hours may be taken as compensatory time off in lieu of cash payment, at a rate of 1.5 hours of comp time for each overtime hour worked. Comp time must be used within six (6) months of accrual; otherwise, it will be paid out at the regular rate. Exempt employees are not eligible for comp time under this provision.  
+
+**9.4 Mandatory Overtime**  
+In urgent business situations (e.g., system outages, peak production periods), the Company may require mandatory overtime. Employees will be given as much advance notice as feasible, and mandatory overtime will be distributed equitably among qualified staff.  
+
+**9.5 Restrictions**  
+Minors and pregnant employees may have restrictions on overtime under labor laws; such restrictions will be honored.  
+
+---
+
+### 10. BUSINESS TRAVEL AND FIELD WORK ATTENDANCE
+
+**10.1 Travel Authorization**  
+Employees traveling for business (including client visits, conferences, and off‑site meetings) must obtain a travel authorization form signed by their manager and the finance department prior to departure.  
+
+**10.2 Attendance During Travel**  
+While on travel status, employees are expected to remain in contact with their manager and adhere to the scheduled itinerary. If a flight or meeting is delayed, the employee must notify their manager and the relevant client or host.  
+
+**10.3 Field Work**  
+Employees whose duties require them to work at customer sites or remote field locations must maintain a daily log of their work hours and submit it via the mobile time‑tracking app. Supervisors may conduct spot checks to verify field attendance.  
+
+**10.4 Per Diem and Expense Reimbursement**  
+Travel‑related expenses, meals, and accommodation are covered per the Company’s travel policy. Employees on travel status are not entitled to additional pay for travel time, except for time spent performing actual work duties, in compliance with local wage laws.  
+
+**10.5 International Travel**  
+For international assignments, employees must also comply with visa, work permit, and local attendance regulations. The HR Department will provide a country‑specific addendum to this Policy.  
+
+---
+
+### 11. REMOTE AND FLEXIBLE WORK ARRANGEMENTS
+
+**11.1 Eligibility**  
+Remote work is available to roles that do not require physical presence, subject to manager approval and satisfactory performance. Flexible scheduling (e.g., starting between 7:00 a.m. and 10:00 a.m.) may be granted to enhance work‑life balance, provided core hours (10:00 a.m. – 3:00 p.m.) are covered.  
+
+**11.2 Attendance Tracking for Remote Workers**  
+Remote employees must clock in and out using the Company’s virtual time portal. The system captures IP addresses and login times to verify location and work hours. Employees are expected to be available via instant messaging and email during their scheduled shifts.  
+
+**11.3 Internet and Equipment Requirements**  
+Remote employees are responsible for maintaining a reliable internet connection and a suitable home workspace. The Company provides necessary equipment (laptop, headset) but does not cover utility costs.  
+
+**11.4 Return‑to‑Office**  
+The Company reserves the right to revoke remote work arrangements at any time, with at least fifteen (15) days’ notice, based on business needs or performance concerns.  
+
+**11.5 Work Hours for Flexible Schedules**  
+Employees on flexible schedules must still meet weekly hour requirements and coordinate with their teams to ensure adequate coverage. Changes to flexible schedules require a one‑week advance notice.  
+
+---
+
+### 12. ATTENDANCE RECORD KEEPING AND VERIFICATION
+
+**12.1 Data Retention**  
+Attendance records will be retained for a minimum of three (3) years from the date of creation, or as required by law. Electronic records are backed up daily and stored in a secure, access‑controlled database.  
+
+**12.2 Employee Access**  
+Each employee has the right to view their own attendance records via the self‑service portal. Any discrepancies must be reported to HR within five (5) business days of the pay period end; otherwise, the record will be deemed accurate for payroll purposes.  
+
+**12.3 Manager Access**  
+Managers have access to their direct reports’ attendance data for supervisory purposes. Access is logged and monitored to prevent misuse.  
+
+**12.4 Third‑Party Audits**  
+External auditors, labor inspectors, or authorized regulatory bodies may inspect attendance records upon reasonable notice. The Company will cooperate fully with such inspections.  
+
+---
+
+### 13. ATTENDANCE INCENTIVES AND RECOGNITION
+
+**13.1 Perfect Attendance Award**  
+Employees with no unexcused absences, tardiness, or early departures during a full calendar quarter (three consecutive months) are eligible for a “Perfect Attendance” recognition, which includes a letter of commendation and a small monetary bonus or gift voucher, as determined by management.  
+
+**13.2 Annual Attendance Bonus**  
+At the end of each fiscal year, employees with an attendance rate of 98% or above (calculated as actual hours worked divided by scheduled hours, excluding approved paid leave) may receive an additional bonus equivalent to 2% of their annual base salary. The criteria and payout are subject to budget approval.  
+
+**13.3 Non‑Monetary Recognition**  
+Managers are encouraged to publicly acknowledge employees who consistently demonstrate reliable attendance through team meetings, internal newsletters, or “Employee of the Month” programs.  
+
+**13.4 Impact on Performance Reviews**  
+Attendance performance is a key component of the annual performance appraisal. Employees with excessive attendance issues will receive a lower rating in the “Reliability and Dependability” category, which may affect salary increments and promotion eligibility.  
+
+---
+
+### 14. PROGRESSIVE DISCIPLINE FOR ATTENDANCE VIOLATIONS
+
+**14.1 General Philosophy**  
+The Company uses a progressive discipline approach to correct attendance‑related misconduct, providing employees with clear feedback and opportunities to improve before more severe sanctions are imposed. However, the Company reserves the right to skip steps or proceed directly to termination for gross misconduct, including time‑card fraud, repeated no‑call/no‑shows, or abandonment.  
+
+**14.2 Occurrence Counting**  
+For purposes of this disciplinary system, an “occurrence” includes each unexcused absence, tardiness (of any duration), early departure, or failure to properly clock in/out. Occurrences are tracked over a rolling 365‑day period.  
+
+**14.3 Disciplinary Steps**  
+
+- **Level 1 – Verbal Warning (2–3 occurrences within 90 days):** The manager conducts a private meeting with the employee, discusses the attendance pattern, issues a verbal warning, and documents the conversation in the employee’s personnel file. The employee is reminded of the Policy.  
+- **Level 2 – Written Warning (4–5 occurrences within 90 days):** A formal written warning is issued, outlining specific incidents and the potential consequences of further violations. The employee must sign the acknowledgment, and the warning remains active for 12 months.  
+- **Level 3 – Final Written Warning (6–7 occurrences within 90 days):** A final written warning is issued, stating that any additional occurrence within the next six (6) months will result in suspension or termination. The employee is required to attend a performance improvement plan meeting with HR.  
+- **Level 4 – Suspension (8–9 occurrences within 90 days):** The employee may be placed on unpaid suspension for one (1) to three (3) working days, depending on the severity. At the end of the suspension, a return‑to‑work interview is conducted.  
+- **Level 5 – Termination (10 or more occurrences within 90 days, or severe violations):** Employment is terminated. The employee will receive a written termination notice stating the reasons and effective date.  
+
+**14.4 Special Circumstances**  
+Serious violations such as falsification of time records, clocking in for another employee, or stealing work time may result in immediate termination without prior progressive discipline.  
+
+**14.5 Appeal Rights**  
+Employees have the right to appeal any disciplinary action through the grievance procedure outlined in Section 18.  
+
+---
+
+### 15. EXCEPTIONS, ACCOMMODATIONS, AND REASONABLE ADJUSTMENTS
+
+**15.1 Reasonable Accommodations**  
+The Company is committed to providing reasonable accommodations to employees with disabilities, medical conditions, or religious obligations that may affect attendance, to the extent such accommodations do not pose an undue hardship on the Company. Employees who need accommodations must contact HR and provide appropriate medical or religious documentation.  
+
+**15.2 Family and Medical Leave**  
+Eligible employees may take unpaid or paid leave under applicable family and medical leave laws for serious health conditions, family care, or military family events. Such leave is protected and will not be counted negatively under the progressive discipline policy.  
+
+**15.3 Emergency Situations**  
+In cases of natural disasters, severe weather, public transport strikes, or other emergencies, the Company may temporarily relax attendance requirements. Employees must still make reasonable efforts to notify their manager and, if possible, work remotely.  
+
+**15.4 Exceptions for Unionized Workforces**  
+If a collective bargaining agreement covers any employee group, the specific attendance provisions of that agreement shall supersede this Policy. Any conflict will be resolved in favor of the collective agreement.  
+
+**15.5 Managerial Discretion**  
+Managers may, on a case‑by‑case basis and with HR approval, grant exceptions to this Policy for extraordinary personal circumstances (e.g., a car accident, sudden hospitalization) without setting a precedent. All exceptions must be documented in writing.  
+
+---
+
+### 16. REPORTING AND NOTIFICATION REQUIREMENTS
+
+**16.1 General Reporting**  
+Employees must notify their direct manager of any absence, tardiness, or early departure as early as possible. The preferred method is via the Company’s attendance hotline or HR portal, followed by an email or text message. If the manager is unavailable, the employee must contact the next level of supervision or the HR duty officer.  
+
+**16.2 Absence Reporting Deadline**  
+Unless an emergency prevents it, employees must report an absence at least one (1) hour before their scheduled shift start. For shift workers with early‑morning starts, a voicemail can be left the night before. Failure to meet this deadline may result in the absence being classified as a no‑call/no‑show.  
+
+**16.3 Extended Absence Reporting**  
+For absences expected to last more than five (5) consecutive working days, the employee must update their manager every three (3) days on their status and expected return date. If the employee does not provide updates, the Company may initiate job abandonment procedures.  
+
+**16.4 Leave Request Submission**  
+All planned leaves must be submitted via the online leave request module. The system automatically notifies the manager and HR. Employees are responsible for ensuring that their requests are approved before taking the leave, except in emergencies.  
+
+**16.5 Return‑to‑Work Interview**  
+After any absence of three (3) or more consecutive days, the employee must participate in a return‑to‑work interview with their manager and an HR representative, to review their health, well‑being, and any required accommodations.  
+
+---
+
+### 17. ROLE OF MANAGERS AND SUPERVISORS
+
+**17.1 Primary Responsibilities**  
+Managers are the first line of defense in ensuring attendance compliance. Their duties include:  
+- Publishing and communicating schedules in a timely manner.  
+- Monitoring their team’s attendance daily using the time‑tracking system.  
+- Conducting prompt follow‑up on late arrivals, early departures, and absences.  
+- Documenting all attendance‑related conversations and warnings.  
+- Approving or denying leave requests based on operational needs.  
+- Initiating the progressive discipline process when necessary.  
+
+**17.2 Fair and Consistent Enforcement**  
+Managers must enforce this Policy consistently across all team members, without discrimination or favoritism. Any perceived inconsistency should be reported to HR for guidance.  
+
+**17.3 Training**  
+All newly appointed managers must complete a mandatory training module on attendance management, including legal compliance, effective communication, and documentation best practices. Refresher courses are offered annually.  
+
+**17.4 Escalation**  
+If a manager faces challenges in addressing an employee’s attendance, they must escalate the matter to HR. HR will provide support in preparing formal warnings, coordinating medical assessments, or handling complex leave cases.  
+
+**17.5 Manager’s Own Attendance**  
+Managers are expected to model exemplary attendance. Their own attendance records will be reviewed by their superiors, and they are subject to the same progressive discipline policy.  
+
+---
+
+### 18. GRIEVANCE AND APPEAL MECHANISM
+
+**18.1 Right to Appeal**  
+Any employee who disagrees with an attendance‑related disciplinary decision (including denial of leave, written warning, suspension, or termination) may appeal in writing to the HR Department within ten (10) business days of receiving the decision.  
+
+**18.2 Appeal Procedure**  
+- **Step 1 – Informal Review:** The employee should first discuss the issue with their manager and HR representative to seek a resolution.  
+- **Step 2 – Formal Grievance:** If unresolved, the employee submits a formal grievance form, detailing the grounds for appeal and any supporting evidence. HR will investigate within ten (10) business days.  
+- **Step 3 – Review Committee:** For serious appeals (e.g., termination), a review committee comprising the HR Director, the affected department head, and a neutral third‑party manager will convene to hear both sides and render a final decision within fifteen (15) business days.  
+
+**18.3 Confidentiality**  
+All grievance proceedings are confidential. Employees will not be retaliated against for filing an appeal in good faith.  
+
+**18.4 Final Decision**  
+The decision of the Review Committee is final and binding on both the employee and the Company, subject to any external legal or arbitration remedies available under law.  
+
+---
+
+### 19. AMENDMENTS, REVIEW, AND GOVERNANCE
+
+**19.1 Annual Review**  
+This Policy will be reviewed annually by the HR Department, in consultation with legal counsel and employee representatives, to ensure it remains current with legislation and organizational needs.  
+
+**19.2 Amendments**  
+Any amendment to this Policy must be approved by the Executive Management Board and communicated to all employees at least thirty (30) days before its effective date, except for emergency changes required by law, which will be communicated as soon as possible.  
+
+**19.3 Policy Ownership**  
+The HR Department is the custodian of this Policy and is responsible for interpretation, dissemination, and compliance monitoring. Queries regarding the Policy should be directed to hr.attendance@company.com.  
+
+**19.4 Governing Law**  
+This Policy is governed by the laws of the jurisdiction in which the employing entity is registered. For international offices, local legal variations will be addressed in country‑specific appendices.  
+
+---
+
+### 20. ACKNOWLEDGMENT AND DISTRIBUTION
+
+**20.1 Electronic Distribution**  
+This Policy is available on the Company intranet and the HR portal. All employees are required to read the Policy and complete an online acknowledgment form within fifteen (15) days of hire or upon the effective date of any substantial revision.  
+
+**20.2 Acknowledgment Form**  
+By signing the acknowledgment form (or clicking “I Accept” in the HR system), the employee confirms that they have read, understood, and agreed to comply with this Policy. A copy of the signed acknowledgment will be placed in the employee’s personnel file.  
+
+**20.3 New Hire Orientation**  
+Attendance policy training is a mandatory component of new hire orientation. All new employees receive a summary guide and have the opportunity to ask questions.  
+
+**20.4 Translations**  
+For non‑English speaking employees, the Company will provide a translated summary of the Policy, but the English version shall prevail in case of any ambiguity or dispute.  
+
+---
+
+### APPENDICES (Summary)
+
+**Appendix A – Attendance Tracking Flowchart**  
+Visual guide for clock‑in procedures, leave request workflow, and disciplinary escalation.  
+
+**Appendix B – Leave Request Form Template**  
+Standard form for requesting annual, sick, personal, or other leave.  
+
+**Appendix C – Medical Certificate Template**  
+Suggested format for healthcare practitioners to complete for sick leave certification.  
+
+**Appendix D – Return‑to‑Work Interview Questionnaire**  
+Checklist for managers to conduct effective return‑to‑work discussions.  
+
+**Appendix E – Frequently Asked Questions (FAQs)**  
+Addressing common queries about the Policy, including emergency leave, snow days, and doctor’s appointments.  
+
+**Appendix F – Country‑Specific Legal Addenda**  
+For operations outside the headquarters jurisdiction, this appendix details local variations on working hours, holiday entitlements, and mandatory leave.  
+
+---
+
+**POLICY EFFECTIVE DATE:** January 1, 2026  
+
+**ISSUED BY:**  
+_________________________  
+*Director of Human Resources*  
+
+**APPROVED BY:**  
+_________________________  
+*Chief Executive Officer*  
+
+---
+
+**END OF DOCUMENT**  
+*(Total word count: approximately 5,200 words)*
