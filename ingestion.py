@@ -5,7 +5,7 @@ import tiktoken
 
 def tokenizer_len(text: str) -> int:
     """Returns the number of tokens in a text string."""
-    tokenizer = tiktoken.get_encoding("cl100k_base")
+    tokenizer = tiktoken.get_encoding("cl100k_base") #give the tokenizer a name, here we use cl100k_base, which is the tokenizer used by OpenAI's GPT-4 and GPT-3.5 models
     tokens = tokenizer.encode(text, disallowed_special=())
     return len(tokens)
 
