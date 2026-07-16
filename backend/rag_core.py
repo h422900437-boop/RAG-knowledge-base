@@ -27,7 +27,7 @@ class RagEngine:
         
         print("[RagEngine] is processing the local chromabase: ./chroma_db ...")
         self.vector_store = Chroma(
-            persist_directory="./chroma_db",
+            persist_directory="../chroma_db",
             embedding_function=self.embedding_model
         )
         

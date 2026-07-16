@@ -16,7 +16,7 @@ embedding_model = HuggingFaceEmbeddings(
     model_kwargs={'device': 'cpu'}
 )
 
-file_path = "./company_policy.txt"
+file_path = "../company_policy.txt"
 print(f"reading file: {file_path}")
 
 try:
@@ -41,7 +41,7 @@ print(f"📑 Text splitting completed! A total of {len(docs)} knowledge chunks h
 Chroma.from_documents( #store the knowledge chunks into a local vector database
     documents=docs,
     embedding=embedding_model,
-    persist_directory="./chroma_db" # directory to store the local vector database
+    persist_directory="../chroma_db" # directory to store the local vector database
 )
 
 print("🎉 Success! The local vector database chroma_db has been built successfully, and the attendance and cafeteria regulations have been stored!")

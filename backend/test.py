@@ -1,5 +1,5 @@
 # local_test.py
-from rag_core import RagEngine
+from backend.rag_core import RagEngine
 
 
 engine = RagEngine()

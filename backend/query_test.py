@@ -15,7 +15,7 @@ embedding_model = HuggingFaceEmbeddings( #define and load the embedding model
 #Connect to the local vector database (Chroma) and load the stored embeddings
 print("reading local stored text ...")
 vector_store = Chroma(
-    persist_directory="./chroma_db", # directory to store the local vector database
+    persist_directory="../chroma_db", # directory to store the local vector database
     embedding_function=embedding_model
 )
 
