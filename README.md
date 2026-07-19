@@ -76,19 +76,77 @@ A powerful **Retrieval-Augmented Generation (RAG)** knowledge base system for co
 
 > **Don't have an API key?** Use Ollama! See [LOCAL_LLM_GUIDE.md](LOCAL_LLM_GUIDE.md) for setup.
 
-### 1. Clone Repository
+### ⚡ One-Click Start (Recommended)
+
+We provide automated scripts to get you running in seconds!
+
+#### Mac/Linux Users:
+```bash
+git clone https://github.com/yourusername/RAG-knowledge-base.git
+cd RAG-knowledge-base
+
+# First time setup (install dependencies)
+bash run.sh setup
+
+# Start the application
+bash run.sh start
+```
+
+#### Windows Users:
+```bash
+git clone https://github.com/yourusername/RAG-knowledge-base.git
+cd RAG-knowledge-base
+
+# First time setup (install dependencies)
+run.bat setup
+
+# Start the application
+run.bat start
+```
+
+**That's it!** The application will open at http://localhost:8501
+
+---
+
+### 📖 Other Commands
+
+```bash
+# Mac/Linux
+bash run.sh backend      # Start only backend (FastAPI)
+bash run.sh frontend     # Start only frontend (Streamlit)
+bash run.sh test         # Run tests
+bash run.sh clean        # Clean temporary files
+bash run.sh help         # Show all commands
+
+# Windows
+run.bat backend          # Start only backend (FastAPI)
+run.bat frontend         # Start only frontend (Streamlit)
+run.bat test             # Run tests
+run.bat clean            # Clean temporary files
+run.bat help             # Show all commands
+```
+
+For more details, see [QUICKSTART.md](QUICKSTART.md)
+
+---
+
+### 📚 Manual Setup (If you prefer)
+
+Alternatively, you can set up manually:
+
+#### 1. Clone Repository
 ```bash
 git clone https://github.com/yourusername/RAG-knowledge-base.git
 cd RAG-knowledge-base
 ```
 
-### 2. Create Virtual Environment
+#### 2. Create Virtual Environment
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 ```
 
-### 3. Install Dependencies
+#### 3. Install Dependencies
 ```bash
 pip install --upgrade pip
 pip install -r requirement.txt
