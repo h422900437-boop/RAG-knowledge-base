@@ -1,4 +1,9 @@
-# backend/rag_core.py
+# backend/rag_core_local.py
+"""
+RAG Engine with local LLM support (Ollama)
+Alternative to cloud-based LLM APIs for users without API keys
+"""
+
 import os
 import tiktoken
 import json
@@ -6,19 +11,23 @@ from langchain_community.vectorstores import Chroma
 from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.prompts import PromptTemplate
-from openai import OpenAI
 
-class RagEngine:
+
+class RagEngineLocal:
     """
-    RAG Core Computational Engine
-    Encapsulates vector database management and LLM generation.
+    RAG Engine using local LLM (Ollama)
+    For users without API keys - completely free and offline
     """
-    
-    def __init__(self):
-        """Initialize models, vector store connections, and prompt templates."""
+
+    def __init__(self, use_local=True):
+        """
+        Initialize RAG engine with optional local LLM support.
+
+        Args:
+            use_local: If True, use local Ollama LLM. If False, use DeepSeek API.
+        """
+        self.use_local = use_local
         self.token_api = os.environ.get("DEEPSEEK_TOKEN")
-        if not self.token_api:
-            print("⚠️ Warning: DEEPSEEK_TOKEN environment variable not found!")
 
         print("🔄 [RagEngine] Loading Embedding model (BAAI/bge-small-zh-v1.5)...")
         self.embedding_model = HuggingFaceEmbeddings(
@@ -32,12 +41,11 @@ class RagEngine:
             embedding_function=self.embedding_model
         )
 
-        print("🤖 [RagEngine] Establishing connection to LLM (deepseek-v4-flash)...")
-        # Use native OpenAI client for better streaming support
-        self.client = OpenAI(
-            api_key=self.token_api,
-            base_url="https://api.deepseek.com"
-        )
+        # Initialize LLM based on availability
+        if use_local:
+            self._init_local_llm()
+        else:
+            self._init_deepseek_llm()
 
         self.rag_prompt_template = """You are a helpful and strict corporate HR assistant.
 Use the following pieces of retrieved attendance policies to answer the user's question.
@@ -54,6 +62,36 @@ Your Professional Answer:"""
 
         print("✅ [RagEngine] Initialization completed. Core engine ready!")
 
+    def _init_local_llm(self):
+        """Initialize local Ollama LLM."""
+        try:
+            from langchain_community.llms import Ollama
+            print("🤖 [RagEngine] Initializing local LLM (Ollama)...")
+            self.client = None  # Not used for local
+            self.llm = Ollama(model="llama2", temperature=0.2)
+            self.is_local = True
+            print("✅ [RagEngine] Using local Ollama LLM (llama2)")
+        except ImportError:
+            print("❌ Ollama client not found. Please install: pip install ollama")
+            print("   Or download Ollama from: https://ollama.ai")
+            raise
+
+    def _init_deepseek_llm(self):
+        """Initialize DeepSeek cloud LLM."""
+        if not self.token_api:
+            print("⚠️ Warning: DEEPSEEK_TOKEN environment variable not found!")
+            print("   Set it with: export DEEPSEEK_TOKEN='your_token'")
+            raise ValueError("DeepSeek API key required")
+
+        from openai import OpenAI
+        print("🤖 [RagEngine] Establishing connection to LLM (deepseek-v4-flash)...")
+        self.client = OpenAI(
+            api_key=self.token_api,
+            base_url="https://api.deepseek.com"
+        )
+        self.is_local = False
+        print("✅ [RagEngine] Using DeepSeek v4-flash LLM")
+
     @staticmethod
     def _tokenizer_len(text: str) -> int:
         """Calculate token count for text splitting constraint."""
@@ -63,9 +101,8 @@ Your Professional Answer:"""
 
     def query(self, question: str):
         """
-        Streamed Knowledge Base Query Processing with Source Tracking
-        Uses native OpenAI API for true streaming support.
-        Yields source metadata first, then streams LLM text tokens.
+        Streamed Knowledge Base Query Processing with Source Tracking.
+        Works with both cloud and local LLMs.
         """
         print(f"🔍 [RagEngine] Processing query with Chroma: '{question}'...")
         # 1. Retrieve top 5 similar documents from Chroma
@@ -91,20 +128,34 @@ Your Professional Answer:"""
             for i, doc in enumerate(results)
         ])
 
-        print("🧠 [RagEngine] Invoking LLM via native streaming API...")
-        # 5. Format prompt and yield tokens sequentially using native API
+        print("🧠 [RagEngine] Invoking LLM...")
+        # 5. Format prompt and yield tokens sequentially
         final_prompt = self.rag_prompt_template.format(context=context_text, question=question)
 
-        # Use native OpenAI streaming API for true token-by-token streaming
-        with self.client.chat.completions.create(
-            model="deepseek-v4-flash",
-            messages=[{"role": "user", "content": final_prompt}],
-            stream=True,
-            temperature=0.2
-        ) as response:
-            for chunk in response:
-                if chunk.choices[0].delta.content:
-                    yield chunk.choices[0].delta.content
+        if self.is_local:
+            # Use local LLM (Ollama)
+            print("   Using local LLM (Ollama)")
+            try:
+                response = self.llm.invoke(final_prompt)
+                # For local LLM, return full response (no streaming by default)
+                yield response
+            except Exception as e:
+                yield f"Error from local LLM: {str(e)}"
+        else:
+            # Use cloud LLM (DeepSeek)
+            print("   Using cloud LLM (DeepSeek)")
+            try:
+                with self.client.chat.completions.create(
+                    model="deepseek-v4-flash",
+                    messages=[{"role": "user", "content": final_prompt}],
+                    stream=True,
+                    temperature=0.2
+                ) as response:
+                    for chunk in response:
+                        if chunk.choices[0].delta.content:
+                            yield chunk.choices[0].delta.content
+            except Exception as e:
+                yield f"Error from DeepSeek LLM: {str(e)}"
 
     def upload_document(self, text: str = None, file_path: str = None, source_filename: str = None, metadata: dict = None):
         """

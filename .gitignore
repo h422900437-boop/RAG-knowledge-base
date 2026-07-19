@@ -216,3 +216,23 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+.streamlit/
+
+# Project specific - Vector Database
+chroma_db/
+*.sqlite3
+
+# Project specific - Temporary uploads
+data/
+temp/
+tmp/
+
+# Project specific - Environment
+.env.local
+DEEPSEEK_TOKEN
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
