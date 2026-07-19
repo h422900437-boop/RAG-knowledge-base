@@ -5,8 +5,8 @@ import json
 from langchain_community.vectorstores import Chroma
 from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain_openai import ChatOpenAI
 from langchain.prompts import PromptTemplate
-from openai import OpenAI
 
 class RagEngine:
     """
@@ -19,28 +19,29 @@ class RagEngine:
         self.token_api = os.environ.get("DEEPSEEK_TOKEN")
         if not self.token_api:
             print("⚠️ Warning: DEEPSEEK_TOKEN environment variable not found!")
-
+            
         print("🔄 [RagEngine] Loading Embedding model (BAAI/bge-small-zh-v1.5)...")
         self.embedding_model = HuggingFaceEmbeddings(
             model_name="BAAI/bge-small-zh-v1.5",
             model_kwargs={'device': 'cpu'}
         )
-
+        
         print("📂 [RagEngine] Connecting to local database at ./chroma_db ...")
         self.vector_store = Chroma(
             persist_directory="./chroma_db",
             embedding_function=self.embedding_model
         )
-
+        
         print("🤖 [RagEngine] Establishing connection to LLM (deepseek-v4-flash)...")
-        # Use native OpenAI client for better streaming support
-        self.client = OpenAI(
-            api_key=self.token_api,
-            base_url="https://api.deepseek.com"
+        self.llm = ChatOpenAI(
+            model_name="deepseek-v4-flash",
+            temperature=0.2,
+            openai_api_key=self.token_api,
+            openai_api_base="https://api.deepseek.com",
         )
-
-        self.rag_prompt_template = """You are a helpful and strict corporate HR assistant.
-Use the following pieces of retrieved attendance policies to answer the user's question.
+        
+        rag_prompt_template = """You are a helpful and strict corporate HR assistant. 
+Use the following pieces of retrieved attendance policies to answer the user's question. 
 If you don't know the answer or if the provided policy doesn't contain enough information, say that you cannot find the explicit answer in the policy. Do not try to make up an answer.
 
 Retrieved Attendance Policies (Context):
@@ -52,6 +53,10 @@ User's Question: {question}
 
 Your Professional Answer:"""
 
+        self.prompt_template = PromptTemplate(
+            template=rag_prompt_template,
+            input_variables=["context", "question"]
+        )
         print("✅ [RagEngine] Initialization completed. Core engine ready!")
 
     @staticmethod
@@ -64,12 +69,11 @@ Your Professional Answer:"""
     def query(self, question: str):
         """
         Streamed Knowledge Base Query Processing with Source Tracking
-        Uses native OpenAI API for true streaming support.
         Yields source metadata first, then streams LLM text tokens.
         """
         print(f"🔍 [RagEngine] Processing query with Chroma: '{question}'...")
         # 1. Retrieve top 5 similar documents from Chroma
-        results = self.vector_store.similarity_search(question, k=5)
+        results = self.vector_store.similarity_search(question, k=5)  
 
         # 2. Extract unique sources and contents for metadata referencing
         sources_info = []
@@ -79,7 +83,7 @@ Your Professional Answer:"""
                 "source": doc.metadata.get('source', 'Unknown'),
                 "content": doc.page_content[:200] + "..." if len(doc.page_content) > 200 else doc.page_content
             })
-
+            
         # 3. Yield the source information as the very first data packet in the stream
         yield f"[SOURCES]:{json.dumps(sources_info)}\n"
 
@@ -91,64 +95,22 @@ Your Professional Answer:"""
             for i, doc in enumerate(results)
         ])
 
-        print("🧠 [RagEngine] Invoking LLM via native streaming API...")
-        # 5. Format prompt and yield tokens sequentially using native API
-        final_prompt = self.rag_prompt_template.format(context=context_text, question=question)
+        print("🧠 [RagEngine] Invoking LLM via stream protocol...")
+        # 5. Format prompt and yield tokens sequentially
+        final_prompt = self.prompt_template.format(context=context_text, question=question)
+        
+        for chunk in self.llm.stream(final_prompt):
+            if chunk.content:
+                yield chunk.content
 
-        # Use native OpenAI streaming API for true token-by-token streaming
-        with self.client.chat.completions.create(
-            model="deepseek-v4-flash",
-            messages=[{"role": "user", "content": final_prompt}],
-            stream=True,
-            temperature=0.2
-        ) as response:
-            for chunk in response:
-                if chunk.choices[0].delta.content:
-                    yield chunk.choices[0].delta.content
-
-    def upload_document(self, text: str = None, file_path: str = None, source_filename: str = None, metadata: dict = None):
-        """
-        Read, chunk, and append new document embeddings into the vector store.
-
-        Args:
-            text: Pre-extracted text content (preferred for multimodal support)
-            file_path: Path to read text from (legacy, if text not provided)
-            source_filename: Original filename for metadata
-            metadata: Additional metadata about the document (file_type, pages, etc.)
-        """
-        # Support both old (file_path) and new (text) API for backward compatibility
-        if text is None:
-            if file_path is None:
-                raise ValueError("Either 'text' or 'file_path' must be provided")
-            print(f"📑 [RagEngine] Reading file for incremental ingestion: {file_path}")
-            try:
-                with open(file_path, "r", encoding="utf-8") as f:
-                    text = f.read()
-            except FileNotFoundError:
-                raise FileNotFoundError(f"File not found: {file_path}")
-            source_filename = os.path.basename(file_path)
-
-        if not text.strip():
-            raise ValueError("Document text is empty after extraction")
-
-        if metadata is None:
-            metadata = {}
-
-        # Prepare document metadata
-        doc_metadata = {
-            "source": source_filename or "unknown",
-            "file_type": metadata.get("file_type", "unknown"),
-        }
-
-        # Add optional metadata if available
-        if "total_pages" in metadata:
-            doc_metadata["total_pages"] = metadata["total_pages"]
-        if "sheets" in metadata:
-            doc_metadata["sheets"] = metadata["sheets"]
-        if "tables" in metadata:
-            doc_metadata["tables"] = metadata["tables"]
-        if "paragraphs" in metadata:
-            doc_metadata["paragraphs"] = metadata["paragraphs"]
+    def upload_document(self, file_path: str):
+        """Read, chunk, and append new document embeddings into the vector store."""
+        print(f"📑 [RagEngine] Reading file for incremental ingestion: {file_path}")
+        try:
+            with open(file_path, "r", encoding="utf-8") as f:
+                raw_text = f.read()
+        except FileNotFoundError:
+            raise FileNotFoundError(f"File not found: {file_path}")
 
         text_splitter = RecursiveCharacterTextSplitter(
             chunk_size=300,
@@ -157,8 +119,9 @@ Your Professional Answer:"""
             separators=["\n\n", "\n", "。", "！", "？", "，", " "]
         )
 
-        docs = text_splitter.create_documents([text], metadatas=[doc_metadata])
-        print(f"📝 [RagEngine] Chunking complete. Generated {len(docs)} text segments.")
+        filename = os.path.basename(file_path)
+        docs = text_splitter.create_documents([raw_text], metadatas=[{"source": filename}])
+        print(f"📝 Chunking complete. Generated {len(docs)} text segments.")
 
         self.vector_store.add_documents(docs)
-        print(f"🎉 [RagEngine] Success! '{source_filename or file_path}' has been appended to the vector database.")
+        print(f"🎉 Success! '{filename}' has been appended to the vector database.")
